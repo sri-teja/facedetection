@@ -1,5 +1,15 @@
 # facedetection
 
+## Required:
+Pre-trained face detection model 
+`https://www.dropbox.com/s/6isizo52zi671s4/shape_predictor_68_face_landmarks.dat.bz2?dl=0
+
+Openface
+`https://www.dropbox.com/sh/tr1itmet6g4j8gu/AACm6OV6g5VxhBcy7UqASPpQa?dl=0
+
+dlib
+`https://www.dropbox.com/sh/iee0vazuroga8du/AACK5B7kHG2_a5a83Zzqgeo2a?dl=0
+
 ##Step by step procedure:
 
 Encode a picture using the HOG algorithm to create a simplified version of the image. Using this simplified image, find the part of the image that most looks like a generic HOG encoding of a face.
