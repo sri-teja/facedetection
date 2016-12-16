@@ -86,3 +86,7 @@ From here it's up to you to adapt the `./demos/classifier.py` python script to w
 Important notes:
 * If you get bad results, try adding a few more pictures of each person in Step 3 (especially picures in different poses).
 * This script will _always_ make a prediction even if the face isn't one it knows. In a real application, you would look at the confidence score and throw away predictions with a low confidence since they are most likely wrong.
+
+##Reference
+
+`https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78#.4tkz2bczp
